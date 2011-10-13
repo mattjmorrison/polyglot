@@ -1,0 +1,10 @@
+Download and unzip the latest Scala and Clojure versions and unzip into same
+directory call each "scala" and "clojure" respectively.
+
+Also must have the following available at a system level
+node
+coffee
+java/javac
+erl/erlc
+python
+ruby

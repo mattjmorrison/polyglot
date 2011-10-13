@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*.class
+*.beam
+
+clojure/*
+scala/*
