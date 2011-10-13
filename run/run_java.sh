@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Compile Java"
-javac Sample.java
+javac ../Sample.java
 echo "Execute Java"
-java Sample
+java -cp ..  Sample
 rm -rf *.class

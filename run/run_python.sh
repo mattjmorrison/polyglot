@@ -1,5 +1,5 @@
 #!/bin/bash
-python sample.py
+python ../sample.py
 rm -rf *.pyo
 rm -rf *.pyc
 
