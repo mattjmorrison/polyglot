@@ -1,25 +1,25 @@
 #!/bin/bash
-echo Python
+echo == Python ==
 ./run_python.sh
-echo Ruby
+echo == Ruby ==
 ./run_ruby.sh
-echo Perl
+echo == Perl ==
 ./run_perl.sh
-echo PHP
+echo == PHP ==
 ./run_php.sh
-echo Node.js
+echo == Node.js ==
 ./run_node.sh
-echo CoffeeScript
+echo == CoffeeScript ==
 ./run_coffee.sh
-echo Clojure
+echo == Clojure ==
 ./run_clojure.sh
-echo XSLT
+echo == XSLT ==
 ./run_xslt.sh
-echo Erlang
+echo == Erlang ==
 ./run_erlang.sh
-echo Java
+echo == Java ==
 ./run_java.sh
-echo Scala
+echo == Scala ==
 ./run_scala.sh
-echo Haskell
+echo == Haskell ==
 ./run_haskell.sh
