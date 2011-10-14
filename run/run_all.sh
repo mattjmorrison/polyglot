@@ -5,6 +5,8 @@ echo Ruby
 ./run_ruby.sh
 echo Perl
 ./run_perl.sh
+echo PHP
+./run_php.sh
 echo Node.js
 ./run_node.sh
 echo CoffeeScript
