@@ -9,13 +9,13 @@ echo Node.js
 ./run_node.sh
 echo CoffeeScript
 ./run_coffee.sh
+echo Clojure
+./run_clojure.sh
 echo Erlang
 ./run_erlang.sh
 echo Java
 ./run_java.sh
 echo Scala
 ./run_scala.sh
-echo Clojure
-./run_clojure.sh
 echo Haskell
 ./run_haskell.sh
