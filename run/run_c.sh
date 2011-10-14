@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Compile C"
-gcc ../sample.c -o sample
+gcc ../languages/c/hi.c -o hi
 echo "Execute C"
-./sample
+./hi
 
-rm -rf sample
+rm -rf hi

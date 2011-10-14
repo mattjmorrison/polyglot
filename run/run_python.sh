@@ -1,5 +1,8 @@
 #!/bin/bash
-python ../sample.py 20
+echo "== Python Hi =="
+python ../languages/python/hi.py
+echo "== Python fibonacci =="
+python ../languages/python/fibonacci.py 20
 rm -rf *.pyo
 rm -rf *.pyc
 

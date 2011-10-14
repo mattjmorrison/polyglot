@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Compile C++"
-g++ ../sample.cpp -o sample
+g++ ../languages/cpp/hi.cpp -o hi
 echo "Execute C++"
-./sample
-rm -rf sample
+./hi
+rm -rf hi

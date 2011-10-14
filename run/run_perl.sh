@@ -1,2 +1,2 @@
 #!/bin/bash
-perl ../sample.pl
+perl ../languages/perl/hi.pl

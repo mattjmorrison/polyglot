@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "Compile Haskell"
-ghc ../sample.hs -o sample
+ghc ../languages/haskell/hi.hs -o hi
 echo "Execute Haskell"
-./sample
-rm -rf ../sample.o
-rm -rf ../sample
-rm -rf ../sample.hi
-rm -rf sample
+./hi
+rm -rf ../languages/haskell/hi.o
+rm -rf ../languages/haskell/hi
+rm -rf ../languages/haskell/hi.hi
+rm -rf hi
 

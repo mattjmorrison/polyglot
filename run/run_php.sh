@@ -1,2 +1,2 @@
 #!/bin/bash
-php ../sample.php
+php ../languages/php/hi.php

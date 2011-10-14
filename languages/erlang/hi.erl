@@ -1,4 +1,4 @@
--module(sample).
+-module(hi).
 -export([start/0]).
 
 start() ->

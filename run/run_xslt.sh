@@ -1,2 +1,2 @@
 #!/bin/bash
-xsltproc ../sample.xslt ../data.xml
+xsltproc ../languages/xslt/hi.xslt ../languages/xslt/data/hi.xml

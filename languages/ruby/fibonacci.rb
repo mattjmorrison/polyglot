@@ -1,4 +1,3 @@
-puts 'Hi'
 
 def fib(n)
     return n if (0..1).include? n

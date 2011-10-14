@@ -1,2 +1,2 @@
 #!/bin/bash
-node ../sample.js
+node ../languages/node/hi.js
