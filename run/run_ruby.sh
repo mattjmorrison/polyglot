@@ -1,2 +1,2 @@
 #!/bin/bash
-ruby ../sample.rb
+ruby ../sample.rb 20
