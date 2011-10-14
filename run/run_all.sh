@@ -11,6 +11,8 @@ echo CoffeeScript
 ./run_coffee.sh
 echo Clojure
 ./run_clojure.sh
+echo XSLT
+./run_xslt.sh
 echo Erlang
 ./run_erlang.sh
 echo Java
