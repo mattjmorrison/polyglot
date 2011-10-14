@@ -23,3 +23,8 @@ echo == Scala ==
 ./run_scala.sh
 echo == Haskell ==
 ./run_haskell.sh
+echo == C ==
+./run_c.sh
+echo == C++ ==
+./run_cpp.sh
+
