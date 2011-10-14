@@ -15,4 +15,5 @@ echo Scala
 ./run_scala.sh
 echo Clojure
 ./run_clojure.sh
-
+echo Haskell
+./run_haskell.sh
