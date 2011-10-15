@@ -12,6 +12,9 @@ echo == CoffeeScript ==
 echo == C++ ==
 ./run_cpp.sh
 
+echo == C# ==
+./run_cs.sh
+
 echo == Erlang ==
 ./run_erlang.sh
 
