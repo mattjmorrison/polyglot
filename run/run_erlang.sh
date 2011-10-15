@@ -7,7 +7,7 @@ echo "Execute Erlang"
 erl -noshell -run hi -s init stop
 rm -rf *.beam
 
-echo "== Erlang Fibonacci =="
+echo "== Erlang Fibonacci 20 =="
 echo "Compile Erlang"
 erlc ../languages/erlang/fibonacci.erl
 echo "Execute Erlang"

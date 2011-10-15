@@ -6,7 +6,7 @@ echo "Execute Scala"
 scala/bin/scala ../languages/scala/hi.scala
 rm -rf *.class
 
-echo "== Scala Fibonacci =="
+echo "== Scala Fibonacci 20 =="
 echo "Compile Scala"
 scala/bin/scalac ../languages/scala/fibonacci.scala
 echo "Execute Scala"

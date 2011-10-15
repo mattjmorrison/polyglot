@@ -9,7 +9,7 @@ rm -rf ../languages/haskell/hi
 rm -rf ../languages/haskell/hi.hi
 rm -rf hi
 
-echo "== Haskell Fibonacci =="
+echo "== Haskell Fibonacci 20 =="
 echo "Compile Haskell"
 ghc ../languages/haskell/fibonacci.hs -o fibonacci
 echo "Execute Haskell"

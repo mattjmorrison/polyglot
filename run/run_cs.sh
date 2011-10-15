@@ -6,7 +6,7 @@ echo "Execute C#"
 mono ../languages/cs/hi.exe
 rm -rf ../languages/cs/hi.exe
 
-echo "== C# Fibonacci =="
+echo "== C# Fibonacci 20 =="
 echo "Compile C#"
 gmcs ../languages/cs/fibonacci.cs
 echo "Execute C#"
