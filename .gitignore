@@ -3,5 +3,5 @@
 *.class
 *.beam
 *~
-*/clojure/*
-*/scala/*
+run/clojure/*
+run/scala/*
