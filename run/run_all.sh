@@ -18,6 +18,9 @@ echo == C# ==
 echo == Erlang ==
 ./run_erlang.sh
 
+echo == F# ==
+./run_fs.sh
+
 echo == Haskell ==
 ./run_haskell.sh
 
