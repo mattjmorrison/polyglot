@@ -6,6 +6,6 @@ int fib(int n){
 }
 
 int main(int argc, char *argv[]){
-	cout << fib(atoi(argv[1])) << endl;
+	cout << fib(atoi(argv[1]) - 1) << endl;
 	return 0;
 }

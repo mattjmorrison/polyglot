@@ -6,9 +6,9 @@ echo "Execute C++"
 ./hi
 rm -rf hi
 
-echo "== C++ Fibonacci 20 =="
+echo "== C++ Fibonacci =="
 echo "Compile C++"
 g++ ../languages/cpp/fibonacci.cpp -o fibonacci
 echo "Execute C++"
-./fibonacci 20
+./fibonacci 16
 rm -rf fibonacci

@@ -3,7 +3,7 @@
   	<xsl:template match="/n">
   	  <xsl:variable name="result">
     	  <xsl:call-template name="fib">
-    	    <xsl:with-param name="count" select="." />
+    	    <xsl:with-param name="count" select=". - 1" />
     	    <xsl:with-param name="current" select="1" />
     	    <xsl:with-param name="next" select="1" />
     	  </xsl:call-template>

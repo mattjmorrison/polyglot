@@ -1,6 +1,6 @@
 public class Hi {
    public static void Main(string[] args) {
-      System.Console.WriteLine(fib(System.Convert.ToInt32(args[0])));
+      System.Console.WriteLine(fib(System.Convert.ToInt32(args[0]) - 1));
    }
 
    public static int fib(int n) {

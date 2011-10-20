@@ -1,15 +1,16 @@
 #!/bin/bash
+cd ../languages/c/
 
 echo "== C Hi =="
 echo "Compile C"
-gcc ../languages/c/hi.c -o hi
+gcc hi.c -o hi
 echo "Execute C"
 ./hi
 rm -rf hi
 
-echo "== C Fibonacci 20 =="
+echo "== C Fibonacci =="
 echo "Compile C"
-gcc ../languages/c/fibonacci.c -o fibonacci
+gcc fibonacci.c -o fibonacci
 echo "Execute C"
-./fibonacci 20
+./fibonacci 16
 rm -rf fibonacci

@@ -5,4 +5,4 @@
   )
 )
 
-(println (fib (Integer/parseInt (first *command-line-args*))))
+(println (fib (- (Integer/parseInt (first *command-line-args*)) 1)))

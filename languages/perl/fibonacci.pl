@@ -4,4 +4,4 @@ sub fib{
     fib($n-1) + fib($n-2);
 }
 
-print fib($ARGV[0]) . "\n";
+print fib($ARGV[0] - 1) . "\n";

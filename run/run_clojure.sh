@@ -8,6 +8,6 @@ echo "== Clojure Hi =="
 $CLOJURE_COMMAND ../languages/clojure/hi.clj
 rm -rf *.class
 
-echo "== Clojure Fibonacci 20 =="
-$CLOJURE_COMMAND ../languages/clojure/fibonacci.clj 20
+echo "== Clojure Fibonacci =="
+$CLOJURE_COMMAND ../languages/clojure/fibonacci.clj 16
 rm -rf *.class
