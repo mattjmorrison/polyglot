@@ -36,6 +36,9 @@ echo == Java ==
 echo == Node.js ==
 ./run_node.sh
 
+echo == Objective C ==
+./run_objectivec.sh
+
 echo == Perl ==
 ./run_perl.sh
 
