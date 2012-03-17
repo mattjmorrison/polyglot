@@ -1,58 +1,61 @@
 #!/bin/bash
 
-echo == C ==
+echo '***** C *****'
 ./run_c.sh
 
-echo == Clojure ==
+echo '***** Clojure *****'
 ./run_clojure.sh
 
-echo == CoffeeScript ==
+echo '***** CoffeeScript *****'
 ./run_coffee.sh
 
-echo == C++ ==
+echo '***** C++ *****'
 ./run_cpp.sh
 
-echo == C# ==
+echo '***** C# *****'
 ./run_cs.sh
 
-echo == Dart ==
+echo '***** Dart *****'
 ./run_dart.sh
 
-echo == Erlang ==
+echo '***** Erlang *****'
 ./run_erlang.sh
 
-echo == F# ==
+echo '***** F# *****'
 ./run_fs.sh
 
-echo == Go ==
+echo '***** Go *****'
 ./run_go.sh
 
-echo == Haskell ==
+echo '***** Haskell *****'
 ./run_haskell.sh
 
-echo == Java ==
+echo '***** Java *****'
 ./run_java.sh
 
-echo == Node.js ==
+echo '***** Node.js *****'
 ./run_node.sh
 
-echo == Objective C ==
+echo '***** Objective C *****'
 ./run_objectivec.sh
 
-echo == Perl ==
+echo '***** OCaml *****'
+./run_ocaml.sh
+
+echo '***** Perl *****'
 ./run_perl.sh
 
-echo == PHP ==
+echo '***** PHP *****'
 ./run_php.sh
 
-echo == Python ==
+echo '***** Python *****'
 ./run_python.sh
 
-echo == Ruby ==
+echo '***** Ruby *****'
 ./run_ruby.sh
 
-echo == Scala ==
+echo '***** Scala *****'
 ./run_scala.sh
 
-echo == XSLT ==
+echo '***** XSLT *****'
 ./run_xslt.sh
