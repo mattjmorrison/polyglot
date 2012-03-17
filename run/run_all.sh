@@ -15,11 +15,17 @@ echo == C++ ==
 echo == C# ==
 ./run_cs.sh
 
+echo == Dart ==
+./run_dart.sh
+
 echo == Erlang ==
 ./run_erlang.sh
 
 echo == F# ==
 ./run_fs.sh
+
+echo == Go ==
+./run_go.sh
 
 echo == Haskell ==
 ./run_haskell.sh
