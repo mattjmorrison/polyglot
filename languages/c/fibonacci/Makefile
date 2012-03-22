@@ -2,7 +2,7 @@ CC ?= gcc
 CFLAGS = -g -Wall -pedantic
 LDFLAGS = -Lcu/ -lcu
 
-OBJS = fibonacci.o fibonacci_tests.o test.o
+OBJS = fibonacci.o tests/fibonacci_tests.o tests/test.o
 
 all: test
 
@@ -16,6 +16,6 @@ test: $(OBJS)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
-	rm -rf *.o test
+	rm -rf *.o test *.err *.out && find . -name "*.o" -delete
 
 .PHONY: all clean
