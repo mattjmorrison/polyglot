@@ -1,10 +1,7 @@
-Download and unzip the latest Scala and Clojure versions and unzip into same
-directory call each "scala" and "clojure" respectively.
+This is a tour of different programming languages. 
 
-Also must have the following available at a system level
-node
-coffee
-java/javac
-erl/erlc
-python
-ruby
+http://www.mattjmorrison.com/2011/10/language-exploration-part-1.html
+
+There are a bunch of things that you'll need to install to be able to
+run everything, and you're pretty much on your own. Sorry.
+
