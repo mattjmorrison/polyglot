@@ -1,3 +1,5 @@
+(ns fibonacci)
+
 (defn fib [n]
   (if (< n 2) 
     n
@@ -5,4 +7,6 @@
   )
 )
 
-(println (fib (- (Integer/parseInt (first *command-line-args*)) 1)))
+(comment
+	(println (fib (- (Integer/parseInt (first *command-line-args*)) 1)))
+)
