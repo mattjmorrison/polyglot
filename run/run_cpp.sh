@@ -1,14 +1,16 @@
 #!/bin/bash
-echo "== C++ Hi =="
-echo "Compile C++"
+. ./colors.sh
+
+section "C++ Hi"
+step "Compile C++"
 g++ ../languages/cpp/hi.cpp -o hi
-echo "Execute C++"
+step "Execute C++"
 ./hi
 rm -rf hi
 
-echo "== C++ Fibonacci =="
-echo "Compile C++"
+section "C++ Fibonacci"
+step "Compile C++"
 g++ ../languages/cpp/fibonacci.cpp -o fibonacci
-echo "Execute C++"
+step "Execute C++"
 ./fibonacci 16
 rm -rf fibonacci

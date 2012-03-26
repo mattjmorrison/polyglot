@@ -1,19 +1,21 @@
 #!/bin/bash
+. ./colors.sh
+
 cd ../languages/ocaml/
 
-echo "== OCaml Hi =="
-echo "Compile OCaml"
+section "OCaml Hi"
+step "Compile OCaml"
 ocamlc -o hi hi.ml
-echo "Execute OCaml"
+step "Execute OCaml"
 ./hi
 rm -rf hi
 rm -rf hi.cmi
 rm -rf hi.cmo
 
-echo "== OCaml Fibonacci =="
-echo "Compile OCaml"
+section "OCaml Fibonacci"
+step "Compile OCaml"
 ocamlc -o fibonacci fibonacci.ml
-echo "Execute OCaml"
+step "Execute OCaml"
 ./fibonacci 16
 rm -rf fibonacci
 rm -rf fibonacci.cmi

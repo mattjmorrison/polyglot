@@ -1,15 +1,16 @@
 #!/bin/bash
+. ./colors.sh
 
-echo "== Erlang Hi =="
-echo "Compile Erlang"
+section "Erlang Hi"
+step "Compile Erlang"
 erlc ../languages/erlang/hi.erl
-echo "Execute Erlang"
+step "Execute Erlang"
 erl -noshell -run hi -s init stop
 rm -rf *.beam
 
-echo "== Erlang Fibonacci =="
-echo "Compile Erlang"
+section "Erlang Fibonacci"
+step "Compile Erlang"
 erlc ../languages/erlang/fibonacci.erl
-echo "Execute Erlang"
+step "Execute Erlang"
 erl -noshell -run fibonacci -s init stop -extra 16
 rm -rf *.beam

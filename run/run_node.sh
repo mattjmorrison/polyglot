@@ -1,6 +1,8 @@
 #!/bin/bash
-echo "== Node Hi =="
+. ./colors.sh
+
+section "Node Hi"
 node ../languages/node/hi.js
 
-echo "== Node Fibonacci =="
+section "Node Fibonacci"
 node ../languages/node/fibonacci.js 16

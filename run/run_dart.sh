@@ -1,8 +1,10 @@
 #!/bin/bash
+. ./colors.sh
+
 cd ../languages/dart
 
-echo "== Dart Hi =="
+section "Dart Hi"
 dart hi.dart
 
-echo "== Dart Fibonacci =="
+section "Dart Fibonacci"
 dart fibonacci.dart 16

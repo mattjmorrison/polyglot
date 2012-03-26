@@ -1,11 +1,16 @@
 #!/bin/bash
+. ./colors.sh
 
-echo "== Clojure Hi =="
+section "Clojure Hi"
 clj ../languages/clojure/hi.clj
 rm -rf *.class
 
-echo "== Clojure Fibonacci Tests =="
-cd ../languages/clojure/
+section "Clojure Fibonacci Tests"
+cd ../languages/clojure/fibonacci/
 clj test_fibonacci.clj
-cd ../../run/
+
+section "Clojure Fibonacci"
+clj cli.clj 16
+
 rm -rf *.class
+cd ../../../run/

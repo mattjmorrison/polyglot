@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "== Perl Hi =="
+. ./colors.sh
+section "Perl Hi"
 perl ../languages/perl/hi.pl
-echo "== Perl Fibonacci =="
+
+section "Perl Fibonacci"
 perl ../languages/perl/fibonacci.pl 16

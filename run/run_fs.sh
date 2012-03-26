@@ -1,14 +1,16 @@
 #!/bin/bash
-echo "== F# Hi =="
-echo "Compile F#"
+. ./colors.sh
+
+section "F# Hi"
+step "Compile F#"
 fsc ../languages/fs/hi.fs > /dev/null
-echo "Execute F#"
+step "Execute F#"
 mono hi.exe
 rm -rf hi.exe
 
-echo "== F# Fibonacci =="
-echo "Compile F#"
+section "F# Fibonacci"
+step "Compile F#"
 fsc ../languages/fs/fibonacci.fs > /dev/null
-echo "Execute F#"
+step "Execute F#"
 mono fibonacci.exe 16
 rm -rf fibonacci.exe

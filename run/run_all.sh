@@ -1,61 +1,62 @@
 #!/bin/bash
+. ./colors.sh
 
-echo '***** C *****'
+language "C"
 ./run_c.sh
 
-echo '***** Clojure *****'
+language "Clojure"
 ./run_clojure.sh
 
-echo '***** CoffeeScript *****'
+language "CoffeeScript"
 ./run_coffee.sh
 
-echo '***** C++ *****'
+language "C+"
 ./run_cpp.sh
 
-echo '***** C# *****'
+language "C#"
 ./run_cs.sh
 
-echo '***** Dart *****'
+language "Dart"
 ./run_dart.sh
 
-echo '***** Erlang *****'
+language "Erlang"
 ./run_erlang.sh
 
-echo '***** F# *****'
+language "F#"
 ./run_fs.sh
 
-echo '***** Go *****'
+language "Go"
 ./run_go.sh
 
-echo '***** Haskell *****'
+language "Haskell"
 ./run_haskell.sh
 
-echo '***** Java *****'
+language "Java"
 ./run_java.sh
 
-echo '***** Node.js *****'
+language "Node.js"
 ./run_node.sh
 
-echo '***** Objective C *****'
+language "Objective C"
 ./run_objectivec.sh
 
-echo '***** OCaml *****'
+language "OCaml"
 ./run_ocaml.sh
 
-echo '***** Perl *****'
+language "Perl"
 ./run_perl.sh
 
-echo '***** PHP *****'
+language "PHP"
 ./run_php.sh
 
-echo '***** Python *****'
+language "Python"
 ./run_python.sh
 
-echo '***** Ruby *****'
+language "Ruby"
 ./run_ruby.sh
 
-echo '***** Scala *****'
+language "Scala"
 ./run_scala.sh
 
-echo '***** XSLT *****'
+language "XSLT"
 ./run_xslt.sh

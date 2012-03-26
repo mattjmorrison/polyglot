@@ -1,16 +1,17 @@
 #!/bin/bash
+. ./colors.sh
 cd ../languages/objectivec/
 
-echo "== Objective C Hi =="
-echo "Compile Objective C"
+section "Objective C Hi"
+step "Compile Objective C"
 gcc hi.m -o hi
-echo "Execute Objective C"
+step "Execute Objective C"
 ./hi
 rm -rf hi
 
-echo "== Objective C Fibonacci =="
-echo "Compile Objective C"
+section "Objective C Fibonacci"
+step "Compile Objective C"
 gcc fibonacci.m -o fibonacci
-echo "Execute Objective C"
+step "Execute Objective C"
 ./fibonacci 16
 rm -rf fibonacci

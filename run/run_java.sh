@@ -1,16 +1,17 @@
 #!/bin/bash
+. ./colors.sh
 
-echo "== Java Hi =="
-echo "Compile Java"
+section "Java Hi"
+step "Compile Java"
 javac ../languages/java/Hi.java
-echo "Execute Java"
+step "Execute Java"
 java -cp ../languages/java Hi 
 rm -rf ../languages/java/*.class
 
-echo "== Java Fibonacci =="
-echo "Compile Java"
+section "Java Fibonacci"
+step "Compile Java"
 javac ../languages/java/Fibonacci.java
-echo "Execute Java"
+step "Execute Java"
 java -cp ../languages/java Fibonacci 16
 rm -rf ../languages/java/*.class
 

@@ -1,6 +1,13 @@
 #!/bin/bash
-echo "== CoffeeScript Hi =="
+. ./colors.sh
+
+section "CoffeeScript Hi"
 coffee ../languages/coffee/hi.coffee
 
-echo "== CoffeeScript Fibonacci =="
-coffee ../languages/coffee/fibonacci.coffee 16
+section "CoffeeScrpit Fibonacci Tests"
+cd ../languages/coffee/fibonacci/
+jasmine-node --coffee .
+cd ../../../run/
+
+section "CoffeeScript Fibonacci"
+coffee ../languages/coffee/fibonacci/cli.coffee 16

@@ -1,5 +1,8 @@
 #!/bin/bash
-echo "== Ruby Hi =="
+. ./colors.sh
+
+section "Ruby Hi"
 ruby ../languages/ruby/hi.rb
-echo "== Ruby Fibonacci =="
+
+section "Ruby Fibonacci"
 ruby ../languages/ruby/fibonacci.rb 16

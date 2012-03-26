@@ -1,14 +1,16 @@
 #!/bin/bash
-echo "== Scala Hi =="
-echo "Compile Scala"
+. ./colors.sh
+
+section "Scala Hi"
+step "Compile Scala"
 scalac ../languages/scala/hi.scala
-echo "Execute Scala"
+step "Execute Scala"
 scala ../languages/scala/hi.scala
 rm -rf *.class
 
-echo "== Scala Fibonacci =="
-echo "Compile Scala"
+section "Scala Fibonacci"
+step "Compile Scala"
 scalac ../languages/scala/fibonacci.scala
-echo "Execute Scala"
+step "Execute Scala"
 scala ../languages/scala/fibonacci.scala 16
 rm -rf *.class
