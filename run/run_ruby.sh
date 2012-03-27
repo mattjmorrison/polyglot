@@ -11,6 +11,4 @@ section "Ruby Fibonacci Tests"
 ruby tests.rb
 
 section "Ruby Fibonacci"
-ruby li.rb 16
-
-cd ../../../run
+ruby cli.rb 16

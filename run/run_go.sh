@@ -4,21 +4,27 @@
 cd ../languages/go/
 
 section "Go Hi"
-step "Compile Go"
-6g hi.go
-step "Link Go"
-6l hi.6
+step "gomake"
+gomake
 step "Execute Go"
-./6.out
-rm -rf hi.6
-rm -rf 6.out
+./main
+step "Cleanup Go"
+gomake clean
+rm -rf main
+
+cd fibonacci
+section "Go Fibonacci Tests"
+step "gotest"
+gotest
+step "Cleanup Go"
+gomake clean
 
 section "Go Fibonacci"
-step "Compile Go"
-6g fibonacci.go
-step "Link Go"
-6l fibonacci.6
+step "gomake"
+gomake
 step "Execute Go"
-./6.out 16
-rm -rf fibonacci.6
-rm -rf 6.out
+./main 16
+
+step "Cleanup Go"
+rm -rf main
+gomake clean
