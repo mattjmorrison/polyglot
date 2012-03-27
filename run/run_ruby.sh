@@ -1,8 +1,16 @@
 #!/bin/bash
 . ./colors.sh
 
+cd ../languages/ruby
+
 section "Ruby Hi"
-ruby ../languages/ruby/hi.rb
+ruby hi.rb
+
+cd fibonacci
+section "Ruby Fibonacci Tests"
+ruby tests.rb
 
 section "Ruby Fibonacci"
-ruby ../languages/ruby/fibonacci.rb 16
+ruby li.rb 16
+
+cd ../../../run
