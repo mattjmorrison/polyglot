@@ -6,5 +6,10 @@ cd ../languages/dart
 section "Dart Hi"
 dart hi.dart
 
+cd fibonacci/
+
+section "Dart Fibonacci Tests"
+dart tests.dart
+
 section "Dart Fibonacci"
-dart fibonacci.dart 16
+dart cli.dart 16
