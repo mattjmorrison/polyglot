@@ -10,7 +10,7 @@ language "Clojure"
 language "CoffeeScript"
 ./run_coffee.sh
 
-language "C+"
+language "C++"
 ./run_cpp.sh
 
 language "C#"
