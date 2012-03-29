@@ -11,13 +11,21 @@ rm -rf ../languages/haskell/hi
 rm -rf ../languages/haskell/hi.hi
 rm -rf hi
 
+cd ../languages/haskell/fibonacci/
+section "Haskell Fibonacci Tests"
+step "Compile Haskell"
+ghc tests.hs fibonacci.hs hunit/*.lhs -o tests
+step "Execute Haskell"
+./tests
+rm -rf tests
+
+
 section "Haskell Fibonacci"
 step "Compile Haskell"
-ghc ../languages/haskell/fibonacci.hs -o fibonacci -v0
+ghc cli.hs fibonacci.hs -o fibonacci -v0
 step "Execute Haskell"
 ./fibonacci 16
-rm -rf ../languages/haskell/fibonacci.o
-rm -rf ../languages/haskell/fibonacci
-rm -rf ../languages/haskell/fibonacci.hi
+rm -rf *.o
+rm -rf *.hi
 rm -rf fibonacci
 
