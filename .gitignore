@@ -8,3 +8,4 @@
 *.class
 run/clojure/*
 run/scala/*
+*.a

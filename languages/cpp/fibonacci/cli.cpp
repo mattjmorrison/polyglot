@@ -1,9 +1,7 @@
 #include <iostream>
-using namespace std;
+#include "fibonacci.h"
 
-int fib(int n){
-	return n < 2 ? n : fib(n-1) + fib(n-2);
-}
+using namespace std;
 
 int main(int argc, char *argv[]){
 	cout << fib(atoi(argv[1]) - 1) << endl;
