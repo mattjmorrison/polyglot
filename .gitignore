@@ -4,8 +4,12 @@
 *.beam
 *.hi
 *.o
+*.out
 *~
 *.class
 run/clojure/*
 run/scala/*
 *.a
+.DS_Store
+*.cmi
+*.cmo
