@@ -1,6 +1,9 @@
 #!/bin/bash
 . ./colors.sh
 
+language "BASIC"
+./run_basic.sh
+
 language "C"
 ./run_c.sh
 
