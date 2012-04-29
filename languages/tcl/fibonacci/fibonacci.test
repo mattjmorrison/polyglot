@@ -1,0 +1,37 @@
+package require tcltest 2.0
+namespace import ::tcltest::*
+source fibonacci.tcl
+
+test zero {} {
+    expr [fib 0]
+} 0
+
+test one {} {
+    expr [fib 1]
+} 1
+
+test two {} {
+    expr [fib 2]
+} 1
+
+test three {} {
+    expr [fib 3]
+} 2
+
+test four {} {
+    expr [fib 4]
+} 3
+
+test five {} {
+    expr [fib 5]
+} 5
+
+test six {} {
+    expr [fib 6]
+} 8
+
+test fifteen {} {
+    expr [fib 15]
+} 610
+
+cleanupTests
