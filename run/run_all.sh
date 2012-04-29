@@ -7,6 +7,9 @@ language "C"
 language "Clojure"
 ./run_clojure.sh
 
+language "COBOL"
+./run_cobol.sh
+
 language "CoffeeScript"
 ./run_coffee.sh
 
