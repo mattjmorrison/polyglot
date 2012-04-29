@@ -1,6 +1,9 @@
 #!/bin/bash
 . ./colors.sh
 
+language "Algol"
+./run_algol.sh
+
 language "C"
 ./run_c.sh
 
