@@ -58,5 +58,8 @@ language "Ruby"
 language "Scala"
 ./run_scala.sh
 
+language "TCL"
+./run_tcl.sh
+
 language "XSLT"
 ./run_xslt.sh
