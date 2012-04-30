@@ -58,6 +58,9 @@ language "Ruby"
 language "Scala"
 ./run_scala.sh
 
+language "Sed"
+./run_sed.sh
+
 language "TCL"
 ./run_tcl.sh
 
