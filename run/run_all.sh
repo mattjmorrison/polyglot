@@ -25,6 +25,9 @@ language "Erlang"
 language "F#"
 ./run_fs.sh
 
+language "Fortran"
+./run_fortran.sh
+
 language "Go"
 ./run_go.sh
 
