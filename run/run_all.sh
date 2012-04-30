@@ -1,6 +1,9 @@
 #!/bin/bash
 . ./colors.sh
 
+language "Awk"
+./run_awk.sh
+
 language "C"
 ./run_c.sh
 
