@@ -1,5 +1,7 @@
-#import <stdio.h>
+#import <Cocoa/Cocoa.h>
 
-main(){
-    printf("Hi\n");
+int main(int argc, char *argv[])
+{
+    NSLog(@"Hi");
+    return 0;
 }
