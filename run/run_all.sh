@@ -37,9 +37,6 @@ language "Java"
 language "Node.js"
 ./run_node.sh
 
-language "Objective C"
-./run_objectivec.sh
-
 language "OCaml"
 ./run_ocaml.sh
 
