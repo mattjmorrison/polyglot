@@ -24,6 +24,9 @@ class FibonacciTests(unittest.TestCase):
     def test_fib_6(self):
         self.assertEqual(8, fib(6))
 
+    def test_fib_7(self):
+        self.assertEqual(13, fib(7))
+
     def test_fib_16(self):
         self.assertEqual(610, fib(15))
 
