@@ -1,0 +1,6 @@
+{
+  "name": "node-tests",
+  "dependencies": {
+    "jasmine-node": "*"
+  }
+}
