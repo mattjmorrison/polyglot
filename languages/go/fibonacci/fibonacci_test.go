@@ -41,4 +41,3 @@ func Test_6_is_8(t *testing.T){
 func Test_15_is_610(t *testing.T){
 	AssertIntEqual(t, 610, Fib(15))
 }
-
