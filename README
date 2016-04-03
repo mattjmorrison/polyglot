@@ -1,27 +1,9 @@
-This is a tour of different programming languages. 
+This is a tour of different programming languages.
 
 http://www.mattjmorrison.com/2011/10/language-exploration-part-1.html
 
-There are a bunch of things that you'll need to install to be able to
-run everything, and you're pretty much on your own. Sorry.
+To create docker containers
 
-Other Potential Languages:
-ActionScript
-assembly
-bash
-ColdFusion
-Delphi
-Eiffel
-Fortran
-Groovy
-Lingo
-Lisp
-Logo
-Object Pascal
-Pascal
-PL/1
-Prolog
-R
-REXX
-self
-smalltalk
+1. `cd languages/ruby`
+2. `docker build -t mattjmorrison/polyglot/ruby .`
+3. `docker run mattjmorrison/polyglot/ruby`

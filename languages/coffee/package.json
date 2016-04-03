@@ -1,0 +1,8 @@
+{
+  "name": "node-tests",
+  "dependencies": {
+    "jasmine-node": "*",
+    "coffee-script": "*"
+  }
+}
+
