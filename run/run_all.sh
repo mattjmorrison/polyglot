@@ -7,9 +7,6 @@ language "C"
 language "Clojure"
 ./run_clojure.sh
 
-language "CoffeeScript"
-./run_coffee.sh
-
 language "C++"
 ./run_cpp.sh
 
@@ -25,17 +22,8 @@ language "Erlang"
 language "F#"
 ./run_fs.sh
 
-language "Go"
-./run_go.sh
-
-language "Haskell"
-./run_haskell.sh
-
 language "Java"
 ./run_java.sh
-
-language "Node.js"
-./run_node.sh
 
 language "OCaml"
 ./run_ocaml.sh
@@ -45,12 +33,6 @@ language "Perl"
 
 language "PHP"
 ./run_php.sh
-
-language "Python"
-./run_python.sh
-
-language "Ruby"
-./run_ruby.sh
 
 language "Scala"
 ./run_scala.sh
