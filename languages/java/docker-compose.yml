@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+
+  shell:
+    build: .
+    entrypoint: /bin/bash
+    working_dir: /app
+    volumes:
+      - .:/app
+
+  build-hi:
+    build: .
+    entrypoint: javac Hi.java
+    working_dir: /app
+    volumes:
+      - .:/app
+
+  hi:
+    build: .
+    entrypoint: java Hi
+    working_dir: /app
+    volumes:
+      - .:/app
+    depends_on:
+      build-hi:
+        condition: "service_completed_successfully"

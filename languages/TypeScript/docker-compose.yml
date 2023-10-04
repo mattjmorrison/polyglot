@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+
+  shell:
+    build: .
+    entrypoint: /bin/bash
+    working_dir: /app
+    volumes:
+      - .:/app
+
+  build-hi:
+    build: .
+    image: typescript-hi
+    entrypoint: tsc Hi.ts
+    working_dir: /app
+    volumes:
+      - .:/app
+
+  hi:
+    build: .
+    image: typescript-hi
+    entrypoint: node Hi.js
+    working_dir: /app
+    volumes:
+      - .:/app
+    depends_on:
+      build-hi:
+        condition: "service_completed_successfully"

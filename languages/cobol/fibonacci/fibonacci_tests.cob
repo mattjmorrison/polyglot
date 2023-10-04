@@ -74,14 +74,14 @@
                 ADD 1 TO PASSED-TESTS
             ELSE
                 DISPLAY 'F' WITH NO ADVANCING
-                DISPLAY ''
+                DISPLAY SPACE
                 DISPLAY 'EXPECTED ' EXPECTED-OUTPUT 
                         ' GOT ' FIBONACCI-OUTPUT
                 ADD 1 TO FAILED-TESTS
             END-IF.
 
         DISPLAY-RESULTS.
-            DISPLAY ''.
+            DISPLAY SPACE.
             DISPLAY PASSED-TESTS ' PASSED TESTS'.
             IF FAILED-TESTS GREATER ZERO
                 DISPLAY FAILED-TESTS ' FAILED TESTS'
